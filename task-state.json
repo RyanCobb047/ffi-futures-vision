@@ -1,0 +1,36 @@
+{
+  "project": "ffi-futures-vision",
+  "status": "built",
+  "current_phase": "builder-complete-awaiting-verification",
+  "summary": "Round 1 build complete: reconstructed the FFI Futures Vision concept as a polished Vite/React SPA with summary view, phase navigation, dashboard summaries, revenue calculator, forecast section, and GitHub Pages-ready static build output.",
+  "next_action": "Verifier should run UI and contract QA against the rebuilt SPA, including navigation flow, calculator stability, responsive behavior, and assumption handling.",
+  "milestones": [
+    {
+      "id": "m1",
+      "name": "Source Recovery and Scope Lock",
+      "status": "complete"
+    },
+    {
+      "id": "m2",
+      "name": "Working SPA Reconstruction",
+      "status": "complete"
+    },
+    {
+      "id": "m3",
+      "name": "Polish, QA, and Deployment",
+      "status": "in_progress"
+    }
+  ],
+  "risks": [
+    "Corrupted source was not available in the project folder, so some labels/copy are assumption-driven rather than source-recovered.",
+    "Calculator logic is reconstructed from apparent intent rather than original formulas.",
+    "Final GitHub deployment destination still needs the orchestrator/user path before publish."
+  ],
+  "assumptions": [
+    "A static React SPA is an appropriate delivery format.",
+    "Relative-asset Vite output (`base: './'`) is acceptable for GitHub-hosted static publishing.",
+    "The implemented four-phase structure is a conservative reconstruction of the intended funding journey."
+  ],
+  "blockers": [],
+  "updated_by": "builder-worker"
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ffi-001",
+    "name": "App boots as a working React SPA",
+    "description": "The reconstructed app runs locally and renders a complete single-page experience without fatal build or runtime errors.",
+    "verification": "Start the app and confirm the main page renders fully; run a production build successfully.",
+    "passes": false
+  },
+  {
+    "id": "ffi-002",
+    "name": "Recovered summary view is present",
+    "description": "A top-level summary or hero section communicates the page purpose and recovered framing from the original draft.",
+    "verification": "Inspect the top of the page and confirm summary content is visible on initial load.",
+    "passes": false
+  },
+  {
+    "id": "ffi-003",
+    "name": "Phase navigation exists",
+    "description": "The app exposes clear navigation or jump controls for the major phases implied by the original component.",
+    "verification": "Use the page navigation controls and confirm each major phase can be reached.",
+    "passes": false
+  },
+  {
+    "id": "ffi-004",
+    "name": "Each major phase has a detailed section",
+    "description": "Every major phase recovered from the damaged draft is represented as its own readable detailed section.",
+    "verification": "Compare the implemented sections against the recovered plan/spec and confirm all major phases appear.",
+    "passes": false
+  },
+  {
+    "id": "ffi-005",
+    "name": "Recovered headings and copy are preserved",
+    "description": "The builder preserves the intended labels, headings, and explanatory content from the corrupted source wherever recoverable.",
+    "verification": "Spot-check rendered copy against the recovered source mapping and confirm preservation of core content.",
+    "passes": false
+  },
+  {
+    "id": "ffi-006",
+    "name": "Dashboard summary blocks render coherently",
+    "description": "Dashboard-like cards, metrics, or visual summary regions implied by the original draft are reconstructed into readable UI blocks.",
+    "verification": "Inspect dashboard sections and confirm they render structured summary information rather than placeholders or broken markup.",
+    "passes": false
+  },
+  {
+    "id": "ffi-007",
+    "name": "Interactive calculator section is implemented where implied",
+    "description": "At least one calculator-style interaction from the damaged draft is restored as a working input/output experience where the original intent is clear.",
+    "verification": "Enter values into calculator controls and confirm outputs update without errors.",
+    "passes": false
+  },
+  {
+    "id": "ffi-008",
+    "name": "Calculator state updates are stable",
+    "description": "Calculator interactions handle multiple input changes predictably and do not create NaN, blank, or crashing states during normal use.",
+    "verification": "Change inputs repeatedly and confirm outputs remain valid and the page remains stable.",
+    "passes": false
+  },
+  {
+    "id": "ffi-009",
+    "name": "Single-page information flow is coherent",
+    "description": "The page reads as one intentional product experience from summary to deeper details, not as disconnected recovered fragments.",
+    "verification": "Perform a top-to-bottom walkthrough and confirm the sections follow a coherent order and narrative.",
+    "passes": false
+  },
+  {
+    "id": "ffi-010",
+    "name": "Responsive layout works at common widths",
+    "description": "The reconstructed page remains usable at desktop and mobile widths with readable text, reachable controls, and no catastrophic overlap.",
+    "verification": "Check at one desktop width and one mobile width and confirm readability and interaction viability.",
+    "passes": false
+  },
+  {
+    "id": "ffi-011",
+    "name": "Visual design is polished and non-placeholder",
+    "description": "The final page has a credible, presentation-ready visual treatment appropriate for a finance/futures concept and avoids obvious scaffold styling.",
+    "verification": "Inspect the live UI and confirm consistent spacing, hierarchy, and deliberate visual styling.",
+    "passes": false
+  },
+  {
+    "id": "ffi-012",
+    "name": "Production build succeeds",
+    "description": "The app can be built for production without unresolved compile-time issues.",
+    "verification": "Run the production build command and confirm it completes successfully.",
+    "passes": false
+  },
+  {
+    "id": "ffi-013",
+    "name": "Deployment target is GitHub-hosted live link",
+    "description": "The finished app is deployed through Ryan’s GitHub presence and exposed at a reachable live URL.",
+    "verification": "Open the deployed URL and confirm the app loads publicly.",
+    "passes": false
+  },
+  {
+    "id": "ffi-014",
+    "name": "Recovered assumptions are contained",
+    "description": "Where the damaged draft forced interpretation, the resulting UI stays close to the apparent original intent and does not introduce unrelated product behavior.",
+    "verification": "Review any assumption-driven sections and confirm they align with the spec’s documented reconstruction strategy.",
+    "passes": false
+  }
+]
