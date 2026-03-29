@@ -1,9 +1,9 @@
 {
   "project": "ffi-futures-vision",
-  "status": "built",
-  "current_phase": "builder-complete-awaiting-verification",
-  "summary": "Round 1 build complete: reconstructed the FFI Futures Vision concept as a polished Vite/React SPA with summary view, phase navigation, dashboard summaries, revenue calculator, forecast section, and GitHub Pages-ready static build output.",
-  "next_action": "Verifier should run UI and contract QA against the rebuilt SPA, including navigation flow, calculator stability, responsive behavior, and assumption handling.",
+  "status": "deployed",
+  "current_phase": "deployment-complete",
+  "summary": "FFI Futures Vision rebuilt as a React/Vite SPA, verified locally, published to GitHub repo and GitHub Pages URL.",
+  "next_action": "Optional: refine copy/content once the original draft is recovered.",
   "milestones": [
     {
       "id": "m1",

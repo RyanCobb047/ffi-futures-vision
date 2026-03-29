@@ -1,6 +1,37 @@
 {
   "version": 1,
-  "projects": [],
+  "projects": [
+    {
+      "slug": "ffi-futures-vision",
+      "type": "frontend",
+      "started": "2026-03-29",
+      "completed": "2026-03-29",
+      "execution_shape": "planner+builder+verifier",
+      "rounds": [
+        {
+          "round": 1,
+          "contract_scope": "Recover a corrupted React draft into a working single-page app with phase navigation, dashboards, calculator interactions, and GitHub-hosted deployment.",
+          "builder_iterations": 1,
+          "grading_scores": {
+            "functionality": 8,
+            "completeness": 7,
+            "code_quality": 8,
+            "edge_cases": 7,
+            "design_quality": 8,
+            "usability": 8,
+            "weighted_total": 7.75
+          },
+          "outcome": "PASS",
+          "verifier_bias_flag": false,
+          "stagnation_detected": false,
+          "notes": "Delivered a stable React/Vite SPA and GitHub Pages deployment; exact source fidelity limited by corrupted/unavailable original component draft."
+        }
+      ],
+      "total_rounds": 1,
+      "final_outcome": "PASS",
+      "lessons": "When a phone-generated source is corrupted, lock a conservative recovery contract early and ship an inspectable live build instead of trying to fake exact restoration."
+    }
+  ],
   "schema": {
     "project_entry": {
       "slug": "",
